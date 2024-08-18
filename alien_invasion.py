@@ -17,6 +17,8 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
     ship = Ship(ai_settings, screen)
 
+    # Make the play button
+    play_button = Button(ai_settings, screen, "Play")
     # Make group of bullets
     bullets = Group()
 
