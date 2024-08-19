@@ -76,7 +76,7 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship,
 def fire_bullet(ai_settings, screen, ship, bullets):
     """ Fire a bullet, if limit not reached yet """
     # Create a new bullet, add to bullets group.
-    if len(bullets) < ai_settings.bullets_allowed:
+    if len(bullets) < ai_settings.max_bullets_allowed:
         new_bullet = Bullet(ai_settings, screen, ship)
         bullets.add(new_bullet)
 
