@@ -1,5 +1,7 @@
 # Alien Invasion
 
+![A shot of the game](./shot.png)
+
 ## Description
 The Alien Invasion Game is a simple 2D game developed in Python using the Pygame library. 
 The game involves shooting down the alien spaceships as they move using a spaceship controlled by the player.
@@ -19,6 +21,3 @@ The game involves shooting down the alien spaceships as they move using a spaces
 2. Run the game by executing `python alien_invasion.py`.
 3. Use the left adn right arrow keys to move your spaceship and the space-bar to shoot lasers at the alien spaceships.
 4. Survive the alien invasion and aim for a high score!
-
-## Screenshots
-![shot.png][]
